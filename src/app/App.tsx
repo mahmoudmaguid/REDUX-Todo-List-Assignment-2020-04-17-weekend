@@ -1,3 +1,9 @@
+
+// I reviewed the way of coding and npm commands from https://www.mattbutton.com/
+//I followed the same way of coding and useing what he explained og npm commands in this Assignment 
+
+
+
 import React from 'react';
 import './App.css';
 import TodoList from 'features/todoList/Todolist';
