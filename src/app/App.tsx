@@ -1,12 +1,15 @@
 import React from 'react';
 import './App.css';
+import TodoList from 'features/todoList/Todolist';
+import AddTodo from 'features/todoList/AddTodo';
+import Footer from 'features/visibilityFilter/Footer';
 
 export default function App() {
   return (
     <div>
-      Hello World
+      <AddTodo />
+      <TodoList />
+      <Footer />
     </div>
   );
 }
-
-
